@@ -31,5 +31,5 @@ app.use('/api/user', require('./routes/userRoute'))
 
 
 app.use((req, res)=> {
-    res.send('hello 3assba')
+    res.send('hello ')
 })
